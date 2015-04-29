@@ -5,7 +5,7 @@ NMONTECARLO     = 10000;
 % DIMENSIONALITY  = 2;
 DIMENSIONALITY  = 3;
 N               = 20;
-
+% this is dummy comment for a git test
 for m = 1:1000
   % generate a random hyperplane inside the [-1 1]^N space
   linePoints    = [2*rand(DIMENSIONALITY,DIMENSIONALITY)-1];
